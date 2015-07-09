@@ -8,21 +8,12 @@ color: grey;
 font-weight: bold;
 font-size: 17px;
 }
-.marginclass{
- margin: 0 auto;
- /*position: relative;*/
- width: 33%;
-}
 .secondline{
 color: grey;
 font-size: 15px;
 }
 .inline{
 display: inline-block;
-}
-#division{
-margin: 0 auto;
-width: 100%;
 }
 .btndefault {
   
@@ -31,7 +22,7 @@ width: 100%;
   border: 3px solid white;
   float: right;
   margin-top: 20px;
-  margin-right: 40px; 
+  margin-right: 40px;
 }
 .textinside{
 color: white;
@@ -53,21 +44,57 @@ align: center;
   float: right;
   
 }
-<!-- body{
-  overflow-x:hidden;
-  overflow-y:hidden;
-  position:relative;
-  
-} -->
+
 
 .gameover{
 text-align: center;
 font-weight: bold;
 font-size: 200%;
 color: #8f7a66;
-
-
 }
+@media screen and (max-height: 768px) and (min-width: 481px){
+.cell {
+  width: 97.5px;
+  height: 97.5px;
+  margin-right: 12px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(238, 228, 218, 0.35);
+}
+}
+@media screen and (max-width: 520px){
+.cell {
+  width: 57.5px;
+  height: 57.5px;
+  margin-right: 10px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(238, 228, 218, 0.35);
+}
+}
+@media screen and (min-height: 769px){
+.cell {
+  width: 130.25px;
+  height: 130.25px;
+  margin-right: 15px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(238, 228, 218, 0.35); 
+  }
+  }
+  @media screen and (min-height: 769px){
+.tile-inner {
+    border-radius: 3px;
+    
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 55px;
+    width: 129.20px;
+  height: 129.20px;	
+  }
+  }
+@media screen and (max-height: 768px) and (min-width: 481px){
 .tile-inner {
     border-radius: 3px;
     
@@ -77,6 +104,19 @@ color: #8f7a66;
     font-size: 55px;
     width: 96.20px;
   height: 96.20px;	
+  }
+  }
+  @media screen and (max-width: 520px){
+.tile-inner {
+    border-radius: 3px;
+    
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 45px;
+    width: 56.20px;
+  height: 56.20px;	
+  }
   }
   .two{
    background: #eee4da;
@@ -112,10 +152,10 @@ color: #8f7a66;
 		background: #DBA901;
 	}
 .row{
- margin-bottom: 15px; 
+margin-bottom: 15px;
 }
-
-
+body{
+overflow-x: hidden;}
 .tryagain {
   color: #fff;
   background-color: #8f7a66;
@@ -123,32 +163,3 @@ color: #8f7a66;
   font-size: 17px;
   font-weight: bold;
 }
-
-  
-  
-  
-  
-  /* CSS used here will be applied after bootstrap.css */
-.box {
-height: 86.50px;
-  width: 86.50px;
-background-color:#aaa; 
-  margin-right: 15px;
-/*margin-left: 2px; */
-}
-
-.cell{
-margin: 0 Auto; 
-background-color:#ccc;
-}
-  
-.row-space{
-width:80%;
-margin: 0 Auto;
-margin-bottom: 15px;    
-}
-
-.textcenter{
-text-align: center;    
-  }
-  

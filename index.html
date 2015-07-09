@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <title>2048 game</title>
@@ -9,53 +10,39 @@
 
 </head>
 <body onload="newGame()">
-<div class="container">
-	<div class="row">
-      <h2><div class="textcenter"> 2048 </div> </h2>
+<div class="row">
+  <div class="col-xs-6 col-md-4"></div>
+  <div class="col-xs-12 col-md-4"><h1 align="left" class="header inline">2048</h1>  
+  <div class="btndefault inline">
+  <h5 class="textinside" align="center">SCORE</h5>
+  <p align="center" class="textinside" id="score">0</p>
+  </div>  
+  <div class="inline">
+  <p class="textline">Play 2048 Game Online</p>
+  <p class="secondline">
+  Join the numbers and get to the <b>2048 tile!</b></p>
   </div>
-  <div class="row row-space">
-  	<div class="col-md-6 col-md-offset-3 col-xs-12">
-    	<div class="col-md-6 col-xs-6">
-      		<button type="button" class="btn btn-default">New Game</button>
-      	</div>
-        <div class="col-md-3 col-md-offset-3 col-xs-3 col-xs-offset-3">
-      		<div class="row">
-          		SCORE
-        	</div>
-        	<div class="row">
-          		0
-        	</div>  
-      </div>
-  	</div>  
+  <div class="inline" align="right">
+  <input type="Submit" class="btnrestart" onclick="newGame();" value="New Game"></input>
   </div>
-	<div class="row">    
-      <div class="col-md-6 col-md-offset-3 col-xs-12">
-      	<div class="row row-space">
-          <div class="col-md-3 col-xs-3 box">A </div>
-          <div class="col-md-3 col-xs-3 box">B</div>
-          <div class="col-md-3 col-xs-3 box">C</div>
-          <div class="col-md-3 col-xs-3 box">D</div>
-        </div>
-        <div class="row row-space">
-          <div class="col-md-3 col-xs-3 box">A</div>
-          <div class="col-md-3 col-xs-3 box">B</div>
-          <div class="col-md-3 col-xs-3 box">C</div>
-          <div class="col-md-3 col-xs-3 box">D</div>
-        </div>
-        <div class="row row-space">
-          <div class="col-md-3 col-xs-3 box">A</div>
-          <div class="col-md-3 col-xs-3 box">B</div>
-          <div class="col-md-3 col-xs-3 box">C</div>
-          <div class="col-md-3 col-xs-3 box">D</div>
-        </div>
-        <div class="row row-space">
-          <div class="col-md-3 col-xs-3 box">A</div>
-          <div class="col-md-3 col-xs-3 box">B</div>
-          <div class="col-md-3 col-xs-3 box">C</div>
-          <div class="col-md-3 col-xs-3 box">D</div>
-        </div>
+ <br><br>
+
+ <div id="division" class="container"></div>  
+ <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h4 class="gameover">Game Over!</h4>
       </div>
-	 </div>
+      <div class="modal-footer">        
+        <button type="button" class="btn tryagain" onclick="newGame()">Try Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <div class="col-xs-6 col-md-4"></div>
 </div>
 </body>
 </html>

@@ -13,6 +13,7 @@ var scr=$("#score");
  }
  randomnumbergenerator();
 }
+
 function randomnumbergenerator()
 {
  var rannum=Math.random();
@@ -91,6 +92,7 @@ function draw(){
 	
 	document.getElementById("division").innerHTML= s.join('');		
 	}
+	
 function up(){
 	for(var j=0; j<=3; j++){
 		  for(var i=0; i<=3; i++){
@@ -227,6 +229,7 @@ function right(){
 		  }
 	  }
 }
+
 $(document).keydown(function(e) {
 	var initial = JSON.parse(JSON.stringify(arr));
 	console.log(initial);
