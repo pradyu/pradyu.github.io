@@ -1,0 +1,154 @@
+.header{
+  color: grey;
+  font-weight: bold;
+  font-size: 74px;
+}
+.textline{
+color: grey;
+font-weight: bold;
+font-size: 17px;
+}
+.marginclass{
+ margin: 0 auto;
+ /*position: relative;*/
+ width: 33%;
+}
+.secondline{
+color: grey;
+font-size: 15px;
+}
+.inline{
+display: inline-block;
+}
+#division{
+margin: 0 auto;
+width: 100%;
+}
+.btndefault {
+  
+  border-radius: 10px;
+  background: grey;
+  border: 3px solid white;
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px; 
+}
+.textinside{
+color: white;
+font-weight: bold;
+float: center;
+align: center;
+}
+.tableborder{
+ border-radius: 40px;
+ }
+
+.btnrestart{
+  color: #333;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  float: right;
+  
+}
+<!-- body{
+  overflow-x:hidden;
+  overflow-y:hidden;
+  position:relative;
+  
+} -->
+
+.gameover{
+text-align: center;
+font-weight: bold;
+font-size: 200%;
+color: #8f7a66;
+
+
+}
+.tile-inner {
+    border-radius: 3px;
+    
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 55px;
+    width: 96.20px;
+  height: 96.20px;	
+  }
+  .two{
+   background: #eee4da;
+  }
+  .four {
+    background: #F6CECE;
+      }
+	.eight{
+		background: #F78181;
+	}
+	.sixteen{
+		background: #F7BE81;
+	}
+	.thirtytwo{
+		background: #F3F781;
+	}
+	.sixtyfour{
+		background: #FF00FF;
+	}
+	.onetwentyeight{
+		background: #FF00BF;
+	}
+	.twofiftysix{
+		background: #FF0080;
+	}
+	.fivetwelve{
+		background: #FE2E9A;
+	}
+	.onethoutwenfour{
+		background: #00BFFF;
+	}
+	.twothoufoureight{
+		background: #DBA901;
+	}
+.row{
+ margin-bottom: 15px; 
+}
+
+
+.tryagain {
+  color: #fff;
+  background-color: #8f7a66;
+  border-color: #2e6da4;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+  
+  
+  
+  
+  /* CSS used here will be applied after bootstrap.css */
+.box {
+height: 86.50px;
+  width: 86.50px;
+background-color:#aaa; 
+  margin-right: 15px;
+/*margin-left: 2px; */
+}
+
+.cell{
+margin: 0 Auto; 
+background-color:#ccc;
+}
+  
+.row-space{
+width:80%;
+margin: 0 Auto;
+margin-bottom: 15px;    
+}
+
+.textcenter{
+text-align: center;    
+  }
+  
