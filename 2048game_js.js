@@ -259,6 +259,11 @@ $(document).keydown(function(e) {
   }
   losingcondition();
 });
+
+$(document).on("swipe", function(e) {
+console.log(e);
+});
+
 function arraycompare(initial, actual){
 	console.log("initial:" + initial);
 	console.log("actual:" + actual);
